@@ -29,5 +29,10 @@ namespace ModernDesign
         {
             this.Close();
         }
+
+        private void MainToolbar_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }
